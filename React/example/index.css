@@ -1,0 +1,42 @@
+.main-case{
+  border: 2px solid black;
+}
+
+body{
+  display: grid;
+  place-content: center;
+  /*min-height: 100vh;*/
+}
+
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid black;
+}
+
+.nav-items{
+  list-style: none;
+  display: flex;
+}
+
+.nav-items > li{
+  padding: 0.80em;
+}
+
+.nav-logo{
+  width: 4em;
+  padding-left: 1em;
+}
+
+
+.footer{
+  display: flex;
+  color: white;
+  background-color: black;
+}
+
+small{
+  margin: auto;
+}

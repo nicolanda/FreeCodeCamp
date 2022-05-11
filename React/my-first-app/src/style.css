@@ -1,0 +1,101 @@
+:root{
+  --navbar-bg-color: #21222a;
+  --main-bg-color: #282d35;
+  --main-logo-color: #60dafb;
+  --body-bg-color: #ddeae1;
+  --font-para-color: #c1c3c5;
+}
+
+html{
+  box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  }
+/* card */
+
+.card-container{
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 50px;
+  width: 750px;
+  box-shadow: 0px 0px 5px 5px gray;
+}
+
+
+
+body{
+  background-color: var(--body-bg-color);
+  font-family: Inter, sans-serif;
+  height: 100vh;
+}
+
+/* navbar */
+nav{
+  display: flex;
+  background-color: var(--navbar-bg-color);
+  align-items: center;
+  height: 5.625rem;
+  padding: 1.875rem 1.5625rem;
+  border-radius: 5px 5px 0 0 ;
+}
+
+.nav-logo, .nav-title{
+  margin: 0;
+}
+
+.nav-logo{
+  height: 1.875rem;
+  margin-right: 0.625rem;
+}
+
+
+.logo-text{
+  color: var(--main-logo-color);
+  margin-right: auto;
+  font-weight: 700;
+  font-size: 1.375rem;
+}
+
+.nav-title{
+  color: var(--font-para-color);
+  font-weight: 600;
+}
+
+
+/*main content*/
+
+main{
+  background-color: var(--main-bg-color);
+  padding: 2.8125rem 1.875rem;
+  border-radius: 0 0 5px 5px ;
+}
+
+.main-title{
+  margin: 0;
+  color: white;
+  font-size: 2.4375rem;
+}
+
+.main-subjects{
+  color: var(--font-para-color);
+  margin-top: 3.125rem;
+  max-width: 28.125rem;
+  padding-left: 50px;
+}
+
+.main-subjects > li{
+  line-height: 1.1875rem;
+  padding-block: 10px;
+  font-size: 1.125rem;
+}
+
+.main-subjects > li::marker{
+  color: var(--main-logo-color);
+  font-size: 1.7rem;
+}
